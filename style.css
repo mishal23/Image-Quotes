@@ -1,0 +1,8 @@
+body{
+	background-image: url('img/background.jpg');
+}
+h1,p{
+	text-align: center;
+	font-family: sans-serif;
+	
+}
