@@ -1,7 +1,7 @@
-var quotes=['img/1.png','img/2.png','img/3.png']
+var quotes=['img/1.png','img/2.png','img/3.png','img/4.jpg','img/5.jpg','img/6.jpg','img/7.jpg','img/8.jpg','img/9.jpg','img/10.jpg','img/11.jpg','img/12.jpg','img/13.jpg','img/14.jpg','img/15.jpg','img/16.jpg','img/17.jpg','img/18.jpg','img/19.jpg','img/20.jpg','img/21.jpg','img/22.jpg','img/23.jpg','img/24.jpg','img/25.jpg','img/26.jpg','img/27.jpg','img/28.jpg','img/29.jpg','img/30.jpg','img/31.jpg','img/32.jpg','img/33.jpg','img/34.jpg','img/35.jpg','img/36.jpg','img/37.jpg','img/38.jpg','img/39.jpg','img/40.jpg','img/41.jpg','img/42.jpg','img/43.jpg','img/44.jpg','img/45.jpg','img/46.jpg','img/47.jpg','img/48.jpg','img/49.jpg','img/50.jpg','img/51.jpg','img/52.jpg','img/53.jpg','img/54.jpg','img/55.jpg','img/56.jpg','img/57.jpg','img/58.jpg','img/59.jpg','img/60.jpg','img/61.jpg','img/62.jpg','img/63.jpg','img/64.jpg','img/65.jpg','img/66.jpg','img/67.jpg','img/68.jpg','img/69.jpg','img/70.jpg','img/71.jpg','img/72.jpg','img/73.jpg','img/74.jpg','img/75.jpg','img/76.jpg','img/77.jpg','img/78.jpg','img/79.jpg','img/80.jpg','img/81.jpg','img/82.jpg','img/83.jpg','img/84.jpg','img/85.jpg','img/86.jpg','img/87.jpg','img/88.jpg','img/89.jpg','img/90.jpg','img/91.png','img/92.png','img/93.png','img/94.png','img/95.jpg','img/96.jpg','img/97.jpg','img/98.jpg','img/99.jpg','img/100.jpg']
 var x=quotes.length;
 function newQuote(){
-	var randomNumber = Math.floor((Math.random()*x)+1);
+	var randomNumber = Math.floor((Math.random()*x));
 
 	document.getElementById('showImage').src=quotes[randomNumber];
 }
