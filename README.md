@@ -13,4 +13,4 @@
 - Kindly send Pull Requests with proper explanation to he changes made.
 - This repository was created and is currently maintained by [Mishal Shah](https://github.com/mishal23)
 ### License
-- This is under [MIT License](https://github.com/mishal23/Image-Quotes/blob/master/LICENSE)
+- This repository is under [MIT License](https://github.com/mishal23/Image-Quotes/blob/master/LICENSE)
