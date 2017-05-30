@@ -1,6 +1,6 @@
 # Want to Contribute?
 The things which I have planned to implement in due-course of time are:-
-- Initially when the page gets loaded the image doesn't show up, so need to fix that.
+- ~Initially when the page gets loaded the image doesn't show up, so need to fix that.~
 - Add a share on Facebook & Twitter button.
 - Add a Quote of the day text which should work on API such that it changes the quote after 24 hours.
 - Make the page mobile friendly.
