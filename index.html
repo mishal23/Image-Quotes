@@ -9,6 +9,16 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- You can use Open Graph tags to customize link previews.
+    Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
+  <meta property="og:url"           content="mishal23.github.io" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="Image Quotes" />
+  <meta property="og:description"   content="A single webpage consisting of various Motivational Quotes"/>
+  <!--<meta property="og:image"         content="" /> -->
+
 </head>
 <body>
 <header>
@@ -18,11 +28,45 @@
 	<!-- Header ends here -->
 </header>
 <main>
+
+	<!-- Load Facebook SDK for JavaScript -->
+ 	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+  		var js, fjs = d.getElementsByTagName(s)[0];
+  		if (d.getElementById(id)) return;
+  		js = d.createElement(s); js.id = id;
+  		js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9";
+  		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
+	<!-- Load Twitter SDK for Twitter -->
+	<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+
 	<!-- main body starts here-->
 	<img id="showImage" style="height: 350px; width: 350px;"> </img>
 	<p></p>
 	<button type="button" onclick="newQuote()">New Quote</button>
 	<p></p>
+	<p>
+	<iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fwww.quora.com%2Fprofile%2FMishal-Shah-16&layout=button_count&size=large&mobile_iframe=true&width=84&height=28&appId" width="84" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+	</p>
+
+	<a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Motivational%20Quotes" data-size="large" style="border:none;overflow: hidden; top: 50%; right: 45%" scrolling="no" frameborder="0" allowTransparency="true">Tweet</a>
 	<!-- main body ends here--> 
 </main>
 <footer>
@@ -46,5 +90,6 @@
 <script>
 	newQuote();
 </script>
+
 </body>
 </html>
