@@ -27,12 +27,12 @@ button{
 }
 
 footer{
-	
-	padding-top: 10px;
-	padding-bottom: 5px;
-	text-align: center;
-	position: relative;
-	background-color: black;
-	color: white;
-	font-family: cursive,sans-serif;
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: black;
+    text-align: center;
 }
