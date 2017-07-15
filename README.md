@@ -4,7 +4,7 @@
 ### Features to be Implemented
 - ~Show image on page load and not after pressing the ```New Quote``` button.~
 - ~Add a Share on Facebook & Twitter button.~
-- Make the buttons in one line, and make it mobile-friendly.
+- ~Make the buttons in one line, and make it mobile-friendly.~
 - Add a Quote of the Day text which works on API and changes the Quote after every 24 hours.
 
 ### Contribution
